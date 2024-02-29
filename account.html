@@ -42,21 +42,57 @@
         </nav>
     </header>
     
+    
     <main>
         <div class="container mt-5 mb-5">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Welcome to My Website</h5>
-                    <p class="card-text">In my website, you can train an AI model to play Tetris. Customize the neural network structure and genetic algorithm parameters to train your models efficiently.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Registration</h5>
+                            <form>
+                                <div class="mb-3">          
+                                    <input type="text" class="form-control" id="username" placeholder="username">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="email" placeholder="email">
+                                </div>
+                                <div class="mb-3">             
+                                    <input type="password" class="form-control" id="password" placeholder="password">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="verifyPassword" placeholder="verify password">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Login</h5>
+                            <form>
+                                <div class="mb-3">           
+                                    <input type="email" class="form-control" id="loginEmail" placeholder="email">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="loginPassword" placeholder="password">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign In</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
+    </main>    
     
     <footer class="footer bg-dark">
         <div class="container">
             <span>© 2024 Lehel. All rights reserved.</span>
         </div>
     </footer>
+   
 </body>
 </html>

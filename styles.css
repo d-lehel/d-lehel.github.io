@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
